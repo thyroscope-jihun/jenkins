@@ -6,7 +6,7 @@
 int main()
 {
     int buf[10]
-    buf[1000] = 0; // <- ERROR
+    buf[1000] = 0;
     
     std::cout << "Hello World!\n";
 }
